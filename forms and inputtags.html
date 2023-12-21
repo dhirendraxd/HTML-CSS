@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>forms and input tags</title>
+</head>
+<body>
+    <!-- forms tag -->
+
+    <h1>form to apply for majduri </h1>
+    <form action="post">
+        <!-- GET is suitable for requests that retrieve data, while POST is used for requests that may modify data on the server and when handling sensitive information. -->
+
+        <label for="username1">Name:</label>
+        <input type="text" name="username" id="username1" placeholder="enter your username" autofocus required >
+        <!-- Description: The required attribute is used to indicate that a form field must be filled out before submitting the form. It's a simple way to enforce that certain fields are not left blank. -->
+
+        <!-- the autofocus tag should be used cause it focus where you were writing even if you click somewhere else  -->
+
+        <label for="male">male</label>
+        <input type="radio" name="gender" value="male" id="male" >
+        <!-- Example: If you have an input field for a user's name like <input type="text" name="username">, when the form is submitted, the server will receive the value entered in the "username" field under the key "username." -->
+
+        <label for="female">female</label>
+        <input type="radio" name="gender" value="female" id="female" >
+        <!-- Example: In the case of a radio button group, each radio button should have a unique value associated with it. When a user selects a particular radio button, the corresponding value is sent to the server. For example: <input type="radio" name="gender" value="male"> -->
+
+        <div class="feedback">
+<label for="review"></label>
+<textarea name="review" id="review" cols="30" rows="4" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">enter your review</textarea>
+</div>
+<!-- the <textarea name="" id="" cols="30" rows="10"></textarea> is used to give a space for review at the end of a form submission itis customizable afterwards with both css and in html -->
+
+<select name="fruits" id="#">
+    <option value="apple">apple</option>
+    <option value="mangoes">mangoes</option>
+</select>
+<!-- the select tag is used to make a option bar used mainly in forms  -->
+<div class="button"><button>
+            submit
+        </button></div>
+    </form>
+</body>
+</html>
