@@ -6,10 +6,50 @@
     <title>Dummy Web</title>
     <link rel="stylesheet" href="dhirendra.css">
 </head>
+<style>
+    /* internal css applying  */
+
+    /* universal selector */
+    *{
+         margin: auto;
+         padding: 0%;
+    }
+
+    /* child selector */
+  div > article{
+    /* so this above div > article means that if the article is inside of the div the following properties would apply */
+    background-color: blueviolet;
+    color: chartreuse;
+}
+
+/* descendent selector */
+div p{
+    background-color: chocolate;
+    color: white;
+}
+
+</style>
 <body>
     <div class="red">red</div>
     <div class="white">white</div>
     <span>normal span tag</span>
     <span class="aquawhite">span with class</span>
+    <div class="dhirendra" style="background-color: pink; color: aliceblue;"> hey this is to try inline css</div>
+
+<div id="joey">hey, how you doin </div>
+<div class="one">
+<p>
+ i am first child
+</p> 
+<p>i am second child</p>
+</div>
+    <!-- new row  -->
+<div class="clasher">
+    <article>
+        hey this is an article tag for css deployment
+        <p>this is to try descendent css method</p>
+    </article>
+</div>
+<a href="www.google.com" target="_blank">google</a>
 </body>
 </html>

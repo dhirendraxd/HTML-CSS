@@ -1,10 +1,42 @@
+/* element selector */
 div,span{
     background-color: pink;
 color: blue;
 }
+/* class selector */
 .red{
     color: black;
 }
 .aquawhite{
     background-color: aqua;
 }
+
+#joey{
+    background-color: aquamarine;
+    color: rgb(71, 70, 71);
+}
+ /* some time the css my not work due to the child and descent selector so we have to keep in mind of that  */
+
+/* pseudo selector */
+a:visited{
+    color: yellow
+}/* the colour turns yellow when the link is visited */
+
+a:link{
+    color: green;
+}/* the unvisited links are given the colour gree */
+
+a:active{
+    background-color: red;
+}
+/* when the link is clicked its colour is turned into red  */
+
+ a:hover{
+    background-color: pink;
+ }
+ /* the background colour turns pink when we click or hover over it  */
+
+ p:first-child{
+    background-color: violet;
+ }
+ /* all the  paragraph tags p ( all over the html doc)will be select their first child paragraph  */
