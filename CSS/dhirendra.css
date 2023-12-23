@@ -17,7 +17,7 @@ color: blue;
 }
  /* some time the css my not work due to the child and descent selector so we have to keep in mind of that  */
 
-/* pseudo selector */
+/* pseudo selector  for links */
 a:visited{
     color: yellow
 }/* the colour turns yellow when the link is visited */
@@ -34,7 +34,7 @@ a:active{
  a:hover{
     background-color: pink;
  }
- /* the background colour turns pink when we click or hover over it  */
+ /* the background colour turns pink when we click or hover over  any div */
 
  p:first-child{
     background-color: violet;
