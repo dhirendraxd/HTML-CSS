@@ -16,5 +16,9 @@ margin: 4px;
 .image{
     margin-top:  200px ;
     margin-left: 39%;
-    border: 23px;
+    border: 23px solid purple;
 }
+box-sizing:border-box;
+/* :required cause it decide what height and width is for the content and the box */
+
+/* margin collapse is when two assigned area collapse while they both are given a value and  the greater one is applied to the collapse side as of it may be in side upside and down side */
