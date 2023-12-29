@@ -1,0 +1,53 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Rubik+Doodle+Shadow&display=swap');
+
+  /*  the above url is form google fonts copied with its inbuild copy function which we can apply through @import url(); */
+
+    h1 { 
+
+                             /* texts and fonts */
+
+    font-style: italic; 
+    /* can customize the style as of bold italic and other  */
+    
+    font-size: 20px;  
+/* can adjust the size of the text with px and other values as well */
+
+    line-height: 4;
+    /* can increase and decrease the line height of a text upwards  */
+
+    letter-spacing: normal;
+/* is used to give space between words  */
+
+text-transform: capitalize;
+/* is used to capitalize the words */
+
+text-decoration: dotted;
+/* used to remove and give line and colors in a words  (cak also add colors to the line underneth)*/
+
+text-decoration-thickness: 23px ;
+/* used to thicken the dotted or the style used in text deco in the word */
+
+text-indent: 23px;
+/* used to give space form the corner of the page  */
+
+text-overflow: clip;
+/* if the text is more then enough then it clips or cuts the remainig part and shows the remainig part as of a word (hehe)is in betwen  only he will be show the other he will cut off */
+
+overflow: hidden;
+/* this shows what to do if it overflows we can hide the ramains of the text or chose what to do with this tag  */
+
+word-break: break-all;
+/* this breaks the word  if one word is being over its remains will shift to the next line half or the reamains  if not the whole word will shift  rather then the remain words  */
+
+text-align: center;
+/* center the content or the text */
+}
+
+                       /* colors */
+p{
+    font-size: large;
+    color: brown;
+/* we can even add other colour value from other sources and paste them in the color tag */
+
+                }
