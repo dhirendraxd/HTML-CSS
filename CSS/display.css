@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+h1{
+    border: 3px solid red;
+
+    display: inline;
+    /* to change the elemtn we can also use display prop as of above  */
+    
+
+ /* display:  inline; wont  obey the margin and border rule  applience in css so using inlin block can be usefulL */
+  
+display: inline-block;
+/* so now the inline block can use margin also but in the case of inline prop of display it wont be able to take the margin property so for the margin also we have to inlin-block in css  */
+visibility: hidden;
+/* this is used when we want to keep space for a  content box but dont want it in out web so we just hide it but the space is occpuied  just the content is hhidden */
+
+
+
+}
+
+
+
+
+/* to center the div we have to use these things as well as body is also  shoudl be changed for this centering process */
+p{
+    box-sizing: border-box;
+    border: 2px solid gray;
+    display:  flex ;
+    justify-content: center;
+    align-items: center;
+    
+    color: red;
+}
+/* to center a div as above is shown  */

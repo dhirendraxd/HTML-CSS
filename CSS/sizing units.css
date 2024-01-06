@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.para{
+box-sizing: border-box; 
+/* the box sizing is used to add the properties realted to box modeling concept in css like padding margin border     */
+
+}
+
+.kool{
+box-sizing: border-box;
+display: flex;
+/* The display: flex; property in CSS is used to create a flex container, turning its children into flex items. Flexbox (Flexible Box Layout) is a one-dimensional layout model that allows you to design complex layouts more efficiently and with less code than traditional models. */
+
+}
+
+.koolpamra{
+box-sizing: border-box;
+min-height: 80vh;
+/* this is used when we want to position a div to a fixed position even though we increase its content laterly and would adapt the required height by itself */
+
+/* the above min property in css does the same kind of task for all the min props in css  */
+}

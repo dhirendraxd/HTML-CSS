@@ -1,0 +1,42 @@
+p{
+    /* the specificity of an universal selector is 1  */
+    color: maroon;
+}
+p{
+    color: aliceblue;
+}
+p{
+    color: yellow;
+}
+/* the specifier select the newest or earliest style applied on a element  */
+
+/* inline selector got the highest specificity nothing can be change once made inline of a element in html  */
+
+/* using id selector can be not worthit afterward in you web so using class specifier should be done more and more  */
+
+<p style ="color:blue !important ">
+</p>
+/* marking an element important  in css make the style unchngable and no thing can replace the style along with the important tag inside a element in css  */
+.p{
+    color ;white;
+    /* the specificity of a class selector is 10 */
+}
+.p1{
+    color ;white;
+    /* the specificity of a class selector is 10 */
+} 
+/* if two of the class collied then position based styling change is applied in this case p1 is new or at the end so its styling will be applied  */
+ [data-x-a]{
+    color: white;
+ }
+ /* in this kind of scenario the  specificity of attribute selector is also 10 so it will also apply its style in basis of position  */
+
+ .p1  class1 {
+    color ;white;
+    /* the specificity of a class selector is 10 */
+    /* the specificity of class is 1  and while we use both the class and universal selector the value addsup and its 10+1=11.. so its style will be applied in the style sheet of a web  
+     
+    and 
+    
+    so on the adding value goes up as the value addsup the priority increase of a style */
+}
