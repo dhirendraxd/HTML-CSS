@@ -1,6 +1,15 @@
+body{
+    background-color: rgb(205, 172, 123);
+}
 .boxshadow{
-    border: 3px solid mediumaquamarine;
+    background-color: rgba(245, 245, 220, 0.615);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(18, 225, 132);
+    width: 50%;
+    font-size: large;
+    border: 3px solid rgb(10, 43, 32);
     padding: 48px;
+
     margin: 84px;
     display: inline-block;
     box-shadow: 23px 13px 23px 1px rgb(209, 120, 120);
@@ -12,8 +21,11 @@
     /* blur radius justify how much blur to apply for the shadow  */
 
     /* spread radius determines how much the shadow should expand or contract and if the value is positive it will expand and if negative it will contract */
+    outline-offset: 12px;
+    outline offset is like a border after border and it does not make any significant change in the doc
 }
 .textelement{
     text-shadow: 23px 12px 23px blue;
  /* the shadow property is also used for text which is used to creatshadow in text and same as box its property changes init  */
+ 
 }
