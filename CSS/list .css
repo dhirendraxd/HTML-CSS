@@ -1,0 +1,13 @@
+nav ul li {
+    color: rgb(23, 21, 21);
+    /* list-style: decimal; */
+    list-style-type:"💕";
+    /* list-style-position: inside; */
+    border: 3px solid gray;
+    list-style: decimal inside );
+
+    /* list-style-image: url("/images/deeya.jpg"); */
+}
+.list{
+    background: wheat;
+}

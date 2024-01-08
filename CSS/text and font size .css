@@ -1,0 +1,44 @@
+p{
+    font-size: 80vw;
+    margin: 23px 3px 5px 4px;
+    /* using everything of a property in a single property box can be written in a single using a property shorthand  */
+    height: 10vh;
+    /* must use property for a functional web */
+
+    font-size: 13px; (1) ,(2)
+    height: 44px;
+    
+}
+ 
+p .class{
+    font-size: 1.8em; (1)
+    /* the font size of the parent container of .class is p so i will inherit its parent property by how many time it is made as above its 1.8 so it is 13*1.8 =23.4  so i we dont  give parent the font-size: then it will inherit its initial value which is 16px by default  for eg.16*1.8  */
+
+    height: 5o%;
+    /* this % takes its haf from its parent as in this scenario it will take 50% of 44px   using vh and vw should be done  as of out interest */
+
+
+    font-size: 2rem;
+    /* it divides the property of the parent by 2times or how many times it is given  */
+}
+
+.class{
+    width: 100vmin;
+    height: 100vh;
+    
+/* 1. **`vmin`:**
+   - `vmin` stands for "viewport minimum."
+   - It represents 1% of the minimum value between the height and width of the viewport.
+   - The value is relative to the smaller dimension of the viewport (either width or height).
+   - For example, if the viewport width is 800px and the height is 600px, `1vmin` would be equivalent to 6px (1% of the smaller dimension, which is 600px).
+
+2. **`vmax`:**
+   - `vmax` stands for "viewport maximum."
+   - It represents 1% of the maximum value between the height and width of the viewport.
+   - The value is relative to the larger dimension of the viewport (either width or height).
+   - For example, if the viewport width is 800px and the height is 600px, `1vmax` would be equivalent to 8px (1% of the larger dimension, which is 800px).
+/ */
+} 
+
+
+ /* these property shown in font can also be used in any of the  other css properties   */
