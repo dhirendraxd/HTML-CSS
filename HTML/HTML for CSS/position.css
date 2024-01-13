@@ -1,0 +1,36 @@
+.box{
+    background-color: antiquewhite;
+/* a box always have a static position so we have to change it  */
+    position:absolute;
+}
+.box1{
+
+    background-color: maroon;
+/* the relative value will use its parent value if not then absolute value will be used by it  */
+    position:relative ;
+/* to use any of the values we have to use the relative position in css to use the top left and bottom along with other index positions */
+    top: 29px;
+    left: 43px;
+    bottom: 47px;
+    z-index: 1;
+}
+
+parrentdiv{
+    padding: 3px;
+    margin: 3px;
+    border: 23px solid red;
+    position: absolute;
+}
+
+
+.box3{
+    position: fixed;
+/* it will be fixed as we have use fixed position init mean it wont move as we move the web as where it is positioned  */
+    bottom: 23px;
+}
+.box4{
+
+    position: sticky;
+    top: 23px;
+/* so this will always stick at the postion where we have placed even though we have positioned it in bottom  it will always there(will resume if we scroll up if it is sticked at top)  */
+}
