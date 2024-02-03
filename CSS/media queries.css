@@ -1,0 +1,26 @@
+@media screen and (orientation:landscape) {
+    /* as above said if the phone or the device is in landscape mode we will the following css  according to  the below changes : */
+    .red{ background-color: pink;
+
+
+
+}}
+/* media queries are used  for responsive web desgin in phone and pc 
+if we want changes according to the device then we use media queries  */
+@media only screen (max-width:455px){
+body{
+    background-color:pink;
+
+} 
+}
+.red{
+ background-color: aqua;   
+ width: 34px;
+ height: 82px;
+ color: black;
+ padding: 23px;
+ border:12px;
+ margin: 23px;
+
+
+}

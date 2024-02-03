@@ -1,0 +1,18 @@
+.red{
+    background-color: wheat;
+
+}
+img{
+    float: left;
+/* this aside the content of the div to the left side of the image  */
+}
+.cards{
+    border:2px solid red;
+    display: flow-root;
+}
+.card{
+    border: 3px solid  black;
+    clear: right;
+    
+/* if we use clear right then the right side of the card will be cleared  and wont have any thing on the right side of it  */
+}
