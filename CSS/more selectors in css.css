@@ -1,0 +1,31 @@
+/* the below div  has multiple classes inside of it  */
+.red :first-child{
+/* first div inside the paren div */
+    background-color: rebeccapurple;
+}
+.red::first-line{
+/* only the rendering first line in the device will take the change  */
+    color: palevioletred;
+}
+.red *{
+/* all the elements inside this div will have the following effect  */
+    background-color: maroon;
+}
+[data-color="primary"]{
+/* specifically used and we have to give the data color function in a div  */
+    margin-top: 43px;
+    background-color: aqua;
+}
+p,a [data-color="primary"]{
+/* grouping all these of the elements */
+    margin-top: 43px;
+    background-color: aqua;
+}
+.red :nth-child(even){
+/* the even div on the div willl only affect form these  */
+background-color: beige;
+}
+.red :nth-child(2){
+/* the numbers will count from the bottom  */
+background-color: blanchedalmond;
+}
